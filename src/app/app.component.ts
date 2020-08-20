@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import //{ Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { MatIconRegistry } from '@angular/material';
+import //{ MatIconRegistry } from '@angular/material';
 import { DomSanitizer } from '@angular/platform-browser';
 
-import { AuthService } from './auth/auth.service';
+//import { AuthService } from './auth/auth.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  //templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export //class AppComponent implements OnInit {
   private userSubscription: Subscription;
   public user: any;
 
