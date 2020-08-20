@@ -4,11 +4,11 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-admin',
   templateUrl: './admin.component.html',
 })
-export class AdminComponent implements OnInit {
+export class //AdminComponent implements OnInit {
 
   constructor() {}
 
-  public ngOnInit() {
+  public ngOnInit(asdfghj) {
   }
 }
 
