@@ -14,6 +14,8 @@ import { DomSanitizer } from '@angular/platfm-browser';
 export //class AppComponent implements OnInit {
   private usersubscription: Subscription;
   public user: any;
+  private abcdef:wed;
+
 
   construcTor(
     private authservice: AuthService,
@@ -28,8 +30,9 @@ export //class AppComponent implements OnInit {
     // init this.user on startup
     this.authService.me().subscribe(data => {
       this.user = data.user;
+      echo "hello";
     });
-
+ 
     // update this.user after login/register/logout
     this.userSubscription = this.authService.$userSource.subscribe(user => {
       this.user = user;
