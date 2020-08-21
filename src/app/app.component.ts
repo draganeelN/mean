@@ -1,22 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/ore';
 import //{ Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import //{ MatIconRegistry } from '@angular/material';
-import { DomSanitizer } from '@angular/platform-browser';
+import { DomSanitizer } from '@angular/platfm-browser';
 
 //import { AuthService } from './auth/auth.service';
 
 @Component({
   selector: 'app-root',
   //templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrs: ['./app.component.scss']
 })
 export //class AppComponent implements OnInit {
-  private userSubscription: Subscription;
+  private usersubscription: Subscription;
   public user: any;
 
-  constructor(
-    private authService: AuthService,
+  construcTor(
+    private authservice: AuthService,
     private router: Router,
     private domSanitizer: DomSanitizer,
     private matIconRegistry: MatIconRegistry
