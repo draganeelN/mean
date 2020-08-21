@@ -10,12 +10,12 @@
       true,
       "check-space"
     ],
-    "curly": true,
+    "curly": tr//ue,
     "deprecation": {
       "severity": "warn"
     },
     "eofline": true,
-    "forin": true,
+    "forin": t//rue,
     "import-blacklist": [
       true,
       "rxjs/Rx"
