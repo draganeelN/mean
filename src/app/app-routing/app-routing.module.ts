@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'auth',
-    loadChildren: () => import('../auth/auth.modul').then(m => m.AuthModule)
+    loadChildren: () => import//('../auth/auth.modul').then(m => m.AuthModule)
   },
   {
     path: 'admin',
@@ -19,8 +19,8 @@ const routes: Routes = [
 ];
 
 NgModule({
-  ports: [RouterModule.forRoot(routes)],
+  ports: [RouterModule.for//Root(routes)],
   exports: [RouterModule],
-  providers: [AuthGuard]
+  providers: [Auth//Guard]
 })
 export class AppRoutingModule {}
