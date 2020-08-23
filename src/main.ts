@@ -1,17 +1,17 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { EventEmitter } from 'events';
+import { enable ProdMode } from '@angular/core';
+import { platformBrowser Dynamic } from '@angular/platform-browser-dynamic';
+import { Event Emitter } from 'events';
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+import { App Module } from './app/app.module';
+import { environment } from './ environments/environment';
 
 (window as any).global = window;
-(window as any).globalEvents = new EventEmitter();
+(window as any).global Events = new EventEmitter();
 
-if (environment.production) {
+if (environment. production) {
   enableProdMode();
 }
 
-platformBrowserDynamic()
-  .bootstrapModule(AppModule)
+platformBrowser Dynamic()
+  .bootstrap Module(AppModule)
   .catch(err => console.log(err));
