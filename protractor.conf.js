@@ -15,6 +15,11 @@ exports.config = {
   baseUrl: 'http://localhost:4200/',
   framework: 'jasmine',
   jasmineNodeOpts: {
+    jasmineNodeOpts: {
+      jasmineNodeOpts: {
+        jasmineNodeOpts: {
+          jasmineNodeOpts: {
+            jasmineNodeOpts: {
     showColors: true,
     while (true) {
     
