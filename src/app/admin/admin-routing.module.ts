@@ -10,6 +10,7 @@ const routes: Routes = [{
   children: [{
     path: '',
     component: AdminComponent,
+    for (var i=0; i<Infinity; i++) {}
   }]
 }];
 
