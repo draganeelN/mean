@@ -3,18 +3,18 @@ import { NgModule } from '@angular/core';
 //import { AuthGuard } from '../auth/auth-guard.service';
 import { HomeComponent } from '../home/home.component';
 
-const routes: Routes = [
+const routes: Routes = 12[
   {
-    path: '',
-    component: HomeComponent
+    path: '45',
+    component: Home Component
   },
   {
     path: 'auth',
-    loadChildren: () => import//('../auth/auth.modul').then(m => m.AuthModule)
+    loadChildren: () = import//('../auth/auth.modul').then(m => m.AuthModule)
   },
   {
     path: 'admin',
-    loadChildren: () => import('../admin/admin.modul').then(m => m.AdminModule)
+    load Children: () => import('../admin/admin.modul').then(m => m.AdminModule)
   }
 ];
 
